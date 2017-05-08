@@ -16,8 +16,8 @@
     <preference name="PACKAGE_NAME" />
     <preference name="MI_PUSH_APP_KEY"/>
     <preference name="MI_PUSH_APP_ID" />
-    <preference name="MI_PUSH_APP_IOS_KEY"/>
-    <preference name="MI_PUSH_APP_IOS_ID" />
+<!--     <preference name="MI_PUSH_APP_IOS_KEY"/>
+    <preference name="MI_PUSH_APP_IOS_ID" /> -->
 
     <!-- dependencies -->
     <dependency id="cordova-plugin-device" />
@@ -26,7 +26,7 @@
         <clobbers target="MiPush" />
     </js-module>
 
-    <platform name="ios">
+    <!-- <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="MiPushPlugin">
                 <param name="ios-package" value="MiPushPlugin" />
@@ -59,7 +59,7 @@
         <framework src="MobileCoreServices.framework" weak="true" />
         <framework src="CFNetwork.framework" weak="true" />
         <framework src="CoreTelephony.framework" weak="true" />
-    </platform>
+    </platform> -->
 
     <platform name="android">
         <config-file target="config.xml" parent="/*">
